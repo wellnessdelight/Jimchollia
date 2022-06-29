@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@import url('https://webfontworld.github.io/MaruBuri/MaruBuri-Bold.css');
+@font-face {
+    font-family:GmarketSans ;
+    src: url(./fonts/GmarketSansBold.woff);
+}
+@font-face {
+    font-family: 07TetsubinGothic;
+    src: url(./fonts/Tetsubin-Gothic.woff);
+}
+
+
+body {
+    margin: 0;
+}
+    
+
+.navbar {
+    width: 100%;
+    min-width: 1100px;
+    /* height: 185px; */
+}
+
+
+.navbar_logo {
+    padding-top: 25px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+
+.navbar_img {
+    width: 258px;
+    height: 87px;
+}
+
+
+.vl {
+    border-left: 2px solid #333333;
+    height: 34px;
+}
+
+
+.navbar a {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+
+.navbar_menu {
+    width: 1000px;
+    height: 35px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+
+.navbar_menu > li:not(:last-child) {
+    margin-right: 25px;
+}
+
+
+.navbar_menu > li:not(:first-child) {
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    min-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 165px;
+    background-color: #075661;
+}
+
+
+.footer_main {
+    width: 100%;
+}
+
+.footer_main > .footer_logo {
+    width: 257px;
+    height: 86px;
+    padding-top: 26px;
+    padding-left: 10%;
+    float: left;
+}
+
+
+.footer_main > .footer_text {
+    width: 890px;
+    height: 181px;
+    padding-top: 65px;
+    margin-right: 8%;
+    float: right;
+}
+
+
+.footer_members {
+    position: absolute;
+    display: flex;
+    right: 0px;
+}
+
+.footer_job {
+    padding-right: 24px;
+    padding-left: 93px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 160%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.footer_members ul li { 
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+
+.footer_bottom {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    padding-top: 79px;
+}
+
+
+.youtube_logo {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.footer_email a{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    color: #ffffff;
+}
+
+
+.footer_unv {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+.copyright_text {
+    bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 13px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
